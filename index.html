@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootsrap html -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>GitHup-Finder</title>
+  </head>
+  <body class="">
+    <nav class="navbar-dark bg-dark mb-3 py-2">
+      <div class="container d-flex justify-content-between">
+        <a href="/" class="navbar-brand">GitHup Bulucu</a>
+        <button class="btn btn-light " id="theme">Koyu Mod</button>
+
+      </div>
+    </nav>
+
+    <div class="container">
+      <div id="alert"></div>
+
+      <div class="border p-3 py-2">
+        <h1>GitHup Kullanıcı Adını Ara !</h1>
+        <p class="lead">
+          Kullanıcı bilgilerine erişmek için bir kullanucu adı gir
+        </p>
+        <div class="d-flex gap-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Github kullanıcı adı.."
+            id="search-user"
+          />
+          <button class="btn btn-primary btn-lg" id="search-button">Ara</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="profile">
+      
+    </div>
+
+    <!-- bootsrap js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+    <!-- kendi js lerim -->
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
