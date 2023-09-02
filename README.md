@@ -2,7 +2,7 @@
 
 **GitHup-Finder**, GitHub kullanıcılarını aramak ve kullanıcı profillerini görüntülemek için kullanılan basit bir web uygulamasıdır. Bu uygulama, GitHub API'sini kullanarak kullanıcıların profillerini ve projelerini görüntülemenize olanak tanır.
 
-![Uygulama Ekran Görüntüsü](screenshot.png)
+![Uygulama Ekran Görüntüsü](ekranGifi.gif)
 
 ## Özellikler
 
@@ -19,7 +19,7 @@
 
 ## Canlı Demo
 
-Uygulamanın canlı bir demosunu [buradan](uygulama-linki) görüntüleyebilirsiniz.
+Uygulamanın canlı bir demosunu [buradan](https://githupfinder38.netlify.app/) görüntüleyebilirsiniz.
 
 ## Kurulum
 
